@@ -1,0 +1,9 @@
+﻿version: '3'
+services:
+  envoy:
+    image: bitnami/envoy:latest
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    volumes:
+      - ./envoy.yaml:/opt/bitnami/envoy/conf/envoy.yaml

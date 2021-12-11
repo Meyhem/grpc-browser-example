@@ -1,0 +1,9 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ts-proto": "^1.93.2"
+  }
+}
